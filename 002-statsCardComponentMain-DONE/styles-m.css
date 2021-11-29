@@ -1,0 +1,89 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+}
+
+h1, h3{
+  font-family: "Inter","Sans-serif";
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+p{
+  font-family: "Inter", "Sans-serif";
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.main-element{
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+  margin-top: 10%;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  width: 90%;
+}
+
+.main-element h1{
+  font-size: 1.9em;
+  margin-bottom: 7%;
+}
+
+.main-element h3{
+  font-size: 1.4em;
+}
+
+/* Txt Container */
+
+.txt-container{
+  padding: 6% 9% 6%;
+}
+
+#insight{
+  color: hsl(277, 64%, 61%);
+}
+
+#description{
+  margin-bottom: 15%;
+  padding: 0 4% 0;
+}
+
+.metrics{
+  margin-bottom: 10%;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.subtitles{
+  font-size: 0.8em;
+  letter-spacing: 0.2mm;
+}
+
+/* Image Container */
+
+.img-container{
+  background-color: hsl(281, 95%, 33%);
+  padding: 0;
+  margin-bottom: 6%;
+}
+
+.main-img{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+}
+
+
+/* Attribution */
+.attribution{ 
+  font-size: 11px; 
+  text-align: center;
+  margin: 10% auto;
+}
+
+.attribution a{ 
+  color: hsl(228, 45%, 44%); 
+}

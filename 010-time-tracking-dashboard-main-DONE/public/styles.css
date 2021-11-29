@@ -1,0 +1,235 @@
+body{
+    font-size: 18px;
+    font-family: 'Rubik';
+    font-weight: 300; 
+    background-color: hsl(226, 43%, 10%);
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    min-width: 1440px;
+    text-align: center;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 36px;
+    color: hsl(236, 100%, 87%);
+    margin: 0;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(236, 100%, 87%);
+    margin: 0;
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(235, 45%, 61%);
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    color: hsl(235, 45%, 61%);
+    font-size: 14px;
+    text-align: start;
+    margin-bottom: 18px;
+}
+
+ul li:hover{
+    color: hsl(236, 100%, 87%);
+    cursor: pointer;
+}
+
+ul li:active{
+    color: hsl(236, 100%, 87%)
+}
+
+.filter-active{
+    color: hsl(236, 100%, 87%)
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+button span:hover{
+    color: hsl(236, 100%, 87%);
+    cursor: pointer;
+}
+
+button span{
+    color: hsl(235, 45%, 61%);
+}
+
+/* Main Element */
+.hero{
+    display: flex;
+    margin: 15% 10% 15% 10%;
+    flex-direction: row;
+    width: 1000px;
+    height: 480px;
+    text-align: left;
+}
+
+.profile{
+    background-color: hsl(235, 46%, 20%);
+    width: 220px;
+    flex-shrink: 0;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+.personal-info{
+    background-color: hsl(246, 80%, 60%);
+    padding: 30px;
+    border-radius: 15px;
+    height: 285px;
+}
+
+.personal-info img{
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: hsl(236, 100%, 87%);
+    margin-bottom: 44px;
+}
+
+.menu{
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.card{
+    padding-top: 15px;
+    flex-grow: 1;
+    width: 230px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.card#work{
+    background-image: url("../images/icon-work.svg");
+    background-color: hsl(15, 100%, 70%);    
+    background-position-y: -12px;
+}
+
+.card#play{
+    background-image: url("../images/icon-play.svg");   
+    background-color: hsl(195, 74%, 62%); 
+    background-position-y: -5px;
+}
+
+.card#study{
+    background-image: url("../images/icon-study.svg");    
+    background-color: hsl(348, 100%, 68%);
+    background-position-y: -5px;
+}
+
+.card#exercise{
+    background-image: url("../images/icon-exercise.svg");
+    background-color: hsl(145, 58%, 55%);    
+    background-position-y: -2px;
+}
+
+.card#social{
+    background-image: url("../images/icon-social.svg"); 
+    background-color: hsl(264, 64%, 52%);   
+    background-position-y: -15px;
+}
+
+.card#self-care{
+    background-image: url("../images/icon-self-care.svg");
+    background-color: hsl(43, 84%, 65%);    
+    background-position-y: -15px;
+}
+
+.info-block{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+    padding: 25px 25px;
+}
+
+.info-block:hover{
+    background-color: hsl(235, 46%, 30%);
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data h1{
+    font-size: 48px;
+    margin-top: 16px;
+}
+
+.data p{
+    margin-top: 10px;
+}
+
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ### Primary
+
+- Blue: hsl(246, 80%, 60%)
+
+- Light red (work): hsl(15, 100%, 70%)
+- Soft blue (play): hsl(195, 74%, 62%)
+- Light red (study): hsl(348, 100%, 68%)
+- Lime green (exercise): hsl(145, 58%, 55%)
+- Violet (social): hsl(264, 64%, 52%)
+- Soft orange (self care): hsl(43, 84%, 65%)
+
+### Neutral
+
+- Very dark blue: hsl(226, 43%, 10%)
+- Dark blue: hsl(235, 46%, 20%)
+- Desaturated blue: hsl(235, 45%, 61%)
+- Pale Blue: hsl(236, 100%, 87%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px (card titles e.g. Work, Play)
+
+### Font
+
+- Family: [Rubik](https://fonts.google.com/specimen/Rubik)
+- Weights: 300, 400, 500 */

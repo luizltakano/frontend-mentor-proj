@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+
+    <title>Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="profile">
+        <div class="personal-info">
+          <img src="images/image-jeremy.png" alt="img-jeremy" />
+          <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+        </div>
+        <div class="menu">
+          <ul>
+            <li class="sidebar filter-active" id="daily">Daily</li>
+            <li class="sidebar filter" id="weekly">Weekly</li>
+            <li class="sidebar filter" id="monthly">Monthly</li>
+          </ul>
+        </div>
+      </div>
+      <div class="dashboard">
+        <div class="card" id="work">
+          <div class="info-block">
+            <div class="top">
+              <h2>Work</h2>
+              <button><span class="material-icons"> more_horiz </span></button>
+            </div>
+            <div class="data">
+              <h1><span id="work-hours">32</span>hrs</h1>
+              <p>Last Week - <span id="work-hours-prev">32</span>hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="play">
+          <div class="info-block">
+            <div class="top">
+              <h2>Play</h2>
+              <button><span class="material-icons"> more_horiz </span></button>
+            </div>
+            <div class="data">
+              <h1><span id="play-hours">32</span>hrs</h1>
+              <p>Last Week - <span id="play-hours-prev">32</span>hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="study">
+          <div class="info-block">
+            <div class="top">
+              <h2>Study</h2>
+              <button><span class="material-icons"> more_horiz </span></button>
+            </div>
+            <div class="data">
+              <h1><span id="study-hours">32</span>hrs</h1>
+              <p>Last Week - <span id="study-hours-prev">32</span>hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="exercise">
+          <div class="info-block">
+            <div class="top">
+              <h2>Exercise</h2>
+              <button><span class="material-icons"> more_horiz </span></button>
+            </div>
+            <div class="data">
+              <h1><span id="exercise-hours">32</span>hrs</h1>
+              <p>Last Week - <span id="exercise-hours-prev">32</span>hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="social">
+          <div class="info-block">
+            <div class="top">
+              <h2>Social</h2>
+              <button><span class="material-icons"> more_horiz </span></button>
+            </div>
+            <div class="data">
+              <h1><span id="social-hours">32</span>hrs</h1>
+              <p>Last Week - <span id="social-hours-prev">32</span>hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="self-care">
+          <div class="info-block">
+            <div class="top">
+              <h2>Self Care</h2>
+              <button><span class="material-icons"> more_horiz </span></button>
+            </div>
+            <div class="data">
+              <h1><span id="self-hours">32</span>hrs</h1>
+              <p>Last Week - <span id="self-hours-prev">32</span>hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./src/app.js" defer></script>
+  </body>
+</html>

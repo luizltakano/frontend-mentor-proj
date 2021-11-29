@@ -1,0 +1,86 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+h1, h3{
+  font-family: "Inter","Sans-serif";
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+p{
+  font-family: "Lexend Deca";
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
+
+.main-element{
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-height: 446px;
+  overflow: hidden;
+  max-width: 1080px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.main-element h1{
+  font-size: 2.2em;
+  margin-bottom: 7%;
+}
+
+.main-element h3{
+  font-size: 1.2em;
+}
+
+.txt-container{
+  height: 446px;
+  padding: 6% 8% 6% 6%;
+}
+
+#insight{
+  color: hsl(277, 64%, 61%);
+}
+
+#description{
+  margin-bottom: 22%;
+}
+
+.metrics{
+  padding: 0;
+  vertical-align: bottom;
+}
+
+.subtitles{
+  font-size: 0.7em;
+}
+
+.img-container{
+  background-color: hsl(281, 95%, 33%);
+  height: 446px;
+  padding: 0;
+}
+
+.main-img{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+}
+
+.attribution{ 
+  font-size: 11px; 
+  text-align: center;
+  margin: auto;
+}
+
+.attribution a{ 
+  color: hsl(228, 45%, 44%); 
+}

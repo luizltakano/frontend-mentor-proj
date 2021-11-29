@@ -1,0 +1,132 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    align-items: center;
+    margin: 0;
+}
+
+
+h1{
+    font-family: "Big Shoulders Display";
+    font-size: 2.4em;
+    color: hsl(0, 0%, 95%);
+}
+
+p{
+    font-family: "Lexend Deca";
+    font-size: 0.8em;
+    line-height: 1.8em;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    font-family: "Lexend Deca";
+    position: relative;
+    padding: 7% 16%;
+    font-size: 0.8em;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    mix-blend-mode: screen;
+}
+  
+button:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    content: '';
+    mix-blend-mode: color-burn;
+}
+
+button:hover{
+    color: hsl(0, 0%, 95%);
+    background: none;
+    border-radius: 50px;
+    border: solid 0.2px hsl(0, 0%, 95%);
+    mix-blend-mode: normal;
+}
+
+/* Main */
+
+.main-element{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: baseline;
+    margin: 10% 20%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Cards */
+
+.ucard{
+    flex: 1 1 0;
+    min-height: 400px;
+    min-width: 10px;
+    padding: 5% 7.5% 2% 5%;
+}
+
+.ucard p{
+    margin-bottom: 40%;
+}
+
+.fst-card{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.scd-card{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.trd-card{
+    background-color: hsl(179, 100%, 13%);
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px){
+    p{
+        font-size: 1em;
+    }
+
+    .main-element{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: baseline;
+        margin: 20% 10%;
+    }
+
+    .ucard{
+        padding: 15% 17% 0;
+        min-width: 65%;
+        min-height: 380px;
+    }
+
+    .ucard p{
+        margin-bottom: 10%;
+        font-size: 0.9em;
+    }
+
+}
+
+/* Attribution */
+
+.attribution{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* Content Lib */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */

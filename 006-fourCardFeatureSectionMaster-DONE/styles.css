@@ -1,0 +1,202 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    margin: 0;
+}
+
+h1{
+    font-family: "Poppins", "Sans-serif";
+    font-size: 2.2em;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+    margin: 0;
+}
+
+h2{
+    font-family: "Poppins", "Sans-serif";
+    font-size: 1.4em;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin: 0;
+}
+
+h3{
+    font-family: "Poppins", "Sans-serif";
+    font-size: 1em;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    margin: 0;
+}
+
+p{
+    font-family: "Poppins", "Sans-serif";
+    font-size: 0.8em;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    margin: 0;
+}
+
+/* Title Container */
+
+.title{
+    text-align: center;
+    margin: 5% 0;
+    padding: 0 30%;
+}
+
+.bold-title{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Cards Container */
+
+.card-container{
+    margin: 0 0 5%;
+    padding: 0 8%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-container-base{
+    width: 350px;
+    max-width: 350px;
+    flex-grow: 1;
+}
+
+.card{
+    background-color: white;
+    border-radius: 8px;
+    border-top: solid 5px;
+    box-shadow: 0 6px 12px 4px hsla(212, 86%, 64%, 0.1);
+    padding: 8% 10%;
+}
+
+.card-body{
+    max-width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body h2{
+    margin-bottom: 8px;
+}
+
+.card-body p{
+    margin-bottom: 8px;
+}
+
+.card-image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#supervisor-card{
+    border-color: hsl(180, 62%, 55%);
+}
+
+#builder-card{
+    border-color: hsl(0, 78%, 62%);
+    margin-bottom: 8%;
+}
+
+#karma-card{
+    border-color: hsl(34, 97%, 64%);
+}
+
+#calculator-card{
+    border-color: hsl(212, 86%, 64%);
+}
+/* Attributes */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media all and (max-width: 768px){
+    h1{
+        font-family: "Poppins", "Sans-serif";
+        font-size: 1.6em;
+        font-weight: 200;
+        color: hsl(234, 12%, 34%);
+        margin: 0;
+    }
+    
+    h2{
+        font-family: "Poppins", "Sans-serif";
+        font-size: 1.2em;
+        font-weight: 600;
+        color: hsl(234, 12%, 34%);
+        margin: 0;
+    }
+    
+    h3{
+        font-family: "Poppins", "Sans-serif";
+        font-size: 1em;
+        font-weight: 400;
+        color: hsl(229, 6%, 66%);
+        margin: 0;
+    }
+    
+    p{
+        font-family: "Poppins", "Sans-serif";
+        font-size: 0.9em;
+        font-weight: 400;
+        color: hsl(229, 6%, 66%);
+        margin: 0;
+    }
+
+    /* Title Container */
+    .title{
+        text-align: center;
+        margin: 25% 0;
+        padding: 0 5%;
+    }
+    
+    .bold-title{
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    /* Card Container */
+    .card-container{
+        margin: 0 0 25%;
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .card-container-base{
+        width: 100%;
+        max-width: 100%;
+        flex-grow: 1;
+    }
+    
+    .card{
+        background-color: white;
+        border-radius: 8px;
+        border-top: solid 5px;
+        box-shadow: 0 6px 12px 4px hsla(212, 86%, 64%, 0.1);
+        padding: 8% 10%;
+        margin-bottom: 8%;
+    }
+    
+    .card-body{
+        max-width: 100%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}
